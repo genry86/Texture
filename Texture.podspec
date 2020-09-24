@@ -38,11 +38,11 @@ Pod::Spec.new do |spec|
     ]
   end
 
-  spec.subspec 'PINRemoteImage' do |pin|
-    pin.dependency 'PINRemoteImage/iOS', '~> 3.0.0'
-    pin.dependency 'PINRemoteImage/PINCache'
-    pin.dependency 'Texture/Core'
-  end
+  # spec.subspec 'PINRemoteImage' do |pin|
+  #   pin.dependency 'PINRemoteImage/iOS', '~> 3.0.0'
+  #   pin.dependency 'PINRemoteImage/PINCache'
+  #   pin.dependency 'Texture/Core'
+  # end
 
   spec.subspec 'IGListKit' do |igl|
     igl.dependency 'IGListKit', '~> 4.0'
@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
 
   # Include these by default for backwards compatibility.
   # This will change in 3.0.
-  spec.default_subspecs = 'Core', 'PINRemoteImage', 'Video', 'MapKit', 'AssetsLibrary', 'Photos'
+  spec.default_subspecs = 'Core', 'Video', 'MapKit', 'AssetsLibrary', 'Photos'
 
   spec.social_media_url = 'https://twitter.com/TextureiOS'
   spec.library = 'c++'
