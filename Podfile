@@ -7,4 +7,6 @@ target :'AsyncDisplayKitTests' do
   use_frameworks!
   pod 'OCMock', '~>3.6'
   pod 'iOSSnapshotTestCase/Core', '~> 6.2'
+  pod 'PINCache', '~>3.0.1'
+  pod 'PINRemoteImage', '~>3.0.1'
 end
